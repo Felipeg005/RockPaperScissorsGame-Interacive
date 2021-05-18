@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "Alfa-Slab-One";
+    src: url("C:/Users/User/Desktop/Rock Paper Scissors/Fonts");
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url(C:/Users/User/Desktop/Rock\ Paper\ Scissors/images/wp2776805-boxing-ring-wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+   column-gap: 0px;
+   display:grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: repeat(9,10%);
+    grid-template-rows: repeat(9,10%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    font-size: 3em;
+    color: white;
+    font-family: "Alfa-Salab-One", Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+.message{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    font-size: 1.2em;
+    color: white;
+    font-family: "Alfa-Salab-One", Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 20px;
+    border-radius: 25px;
+    margin: 40px 0px 0px 0px;
+}
+
+.endMessage{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    font-size: 2.9em;
+    color: white;
+    font-family: "Alfa-Salab-One", Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 20px;
+    border-radius: 25px;
+    margin: 200px 0px 0px 0px;
+    transition: 0.5s;
+    
+}
+
+.scoreTitle{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 8;
+    font-size: 45px;
+    color: white;
+    font-family: "Alfa-Salab-One", Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+.userSelection{
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    transition: all 0.09s;
+    border:none;
+    margin-top: 60px;
+}
+
+.pcSelection{
+    display: flex;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    transition: all 0.09s;
+    margin-top: 60px;
+}
+
+.pcScore{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    font-size: 45px;
+    color: white;
+    font-family: "Alfa-Salab-One", Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.humanScore{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        font-size: 45px;
+        color: white;
+        font-family: "Alfa-Salab-One", Arial, Helvetica, sans-serif;
+        text-shadow: 2px 2px 5px black;
+    }
+
+.Human {
+    grid-row-start: 4;
+    grid-row-end: 7;
+   display: flex;
+   flex-direction: column;
+   grid-column-start: 1;
+   grid-column-end: 2;
+    background-color: #4609099c;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #ff0000;
+    
+}
+
+.PC {
+    grid-row-start: 4;
+    grid-row-end: 7;
+   display: flex;
+   flex-direction: column;
+   grid-column-start: 9;
+   grid-column-end: 10;
+   background-color: #090d469c;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #0004ff;
+    
+}
+
+
+kbd{
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    color: #00ff37;
+    margin: 20px 7px 10px 7px;
+    text-shadow: 0px 0px 10px green;
+}
+
+.humanDiv:hover{
+    display: flex;
+    flex-direction: column;
+    font-size: 4.2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    margin: 20px 7px 10px 7px;
+    cursor: pointer;
+    background-color: #9000007a;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 0.3s;
+    text-shadow: 0px 0px 6px white;
+}
+
+span{
+    margin-top: 10px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 20px 10px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
