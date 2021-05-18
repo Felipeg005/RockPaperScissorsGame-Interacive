@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Alfa-Slab-One";
-    src: url("C:/Users/User/Desktop/Rock Paper Scissors/Fonts");
+    src: url("https://github.com/Felipeg005/RockPaperScissorsGame-Interacive/blob/main/Fonts/AlfaSlabOne-Regular.ttf");
 }
 
 body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-image: url(C:/Users/User/Desktop/Rock\ Paper\ Scissors/images/wp2776805-boxing-ring-wallpaper.jpg);
+    background-image: url(https://github.com/Felipeg005/RockPaperScissorsGame-Interacive/blob/main/Images/wp2776805-boxing-ring-wallpaper.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
