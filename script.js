@@ -22,17 +22,17 @@ function userPlays(e){
             resetGame();
         }
         else if (e.toElement.dataset.name==="redRock"){
-            userSelectionImg.innerHTML=`<img src="file:///C:/Users/User/Desktop/Rock%20Paper%20Scissors/Images/redRock.png" 
+            userSelectionImg.innerHTML=`<img src="Images/redRock.png" 
             width="170px" height="170px">`;
             userSelection="rock";
             
         }else if (e.toElement.dataset.name==="redPaper"){
-            userSelectionImg.innerHTML=`<img src="file:///C:/Users/User/Desktop/Rock%20Paper%20Scissors/Images/redPaper.png" 
+            userSelectionImg.innerHTML=`<img src="Images/redPaper.png" 
             width="170px" height="170px">`;
             userSelection="paper";
             
         }else if (e.toElement.dataset.name==="redScissor"){
-            userSelectionImg.innerHTML=`<img src="file:///C:/Users/User/Desktop/Rock%20Paper%20Scissors/Images/redScissor.png" 
+            userSelectionImg.innerHTML=`<img src="Images/redScissor.png" 
             width="170px" height="170px">`;
             userSelection="scissors";
             
@@ -45,15 +45,15 @@ function userPlays(e){
 function pcGetRandom(){
     let random = options[Math.floor(Math.random()*options.length)]
     if (random==="rock"){
-        pcSelectionImg.innerHTML=`<img src="file:///C:/Users/User/Desktop/Rock%20Paper%20Scissors/Images/blueRock.png" 
+        pcSelectionImg.innerHTML=`<img src="Images/blueRock.png" 
             width="170px" height="170px">`;
         machineSelection="rock";
     }else if (random==="paper"){
-        pcSelectionImg.innerHTML=`<img src="file:///C:/Users/User/Desktop/Rock%20Paper%20Scissors/Images/bluePaper.png" 
+        pcSelectionImg.innerHTML=`<img src="Images/bluePaper.png" 
             width="170px" height="170px">`;
         machineSelection="paper";
     }else if (random==="scissors"){
-        pcSelectionImg.innerHTML=`<img src="file:///C:/Users/User/Desktop/Rock%20Paper%20Scissors/Images/blueScissor.png" 
+        pcSelectionImg.innerHTML=`<img src="Images/blueScissor.png" 
             width="170px" height="170px">`;
         machineSelection="scissors";
     } 
